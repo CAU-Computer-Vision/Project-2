@@ -3,11 +3,13 @@
 using namespace cv;
 using namespace std;
 
-
-void onMouse(int event, int x, int y, int flags, void* param);
+void onMouse1(int event, int x, int y, int flags, void* param);
+void onMouse2(int event, int x, int y, int flags, void* param);
 Mat getHomography(const vector<Point2f>& img1_pnt, const vector<Point2f>& img2_pnt);
 void warp(const Mat& src1, Mat& src2, const Mat& H);
 
+vector<Point2f> img1_pnts, img2_pnts;
+bool isStartSet = 0;
 
 int main() {
 	Mat img1 = imread("src.jpg", IMREAD_COLOR);
@@ -23,17 +25,22 @@ int main() {
 	img1.copyTo(src1);
 	img2.copyTo(src2);
 
-	while (1) {	//!isStartSet
+	while (!isStartSet) {
 		imshow("src", img1);
 		imshow("dst", img2);
-		setMouseCallback("src", onMouse, (void*)&img1);
-		setMouseCallback("dst", onMouse, (void*)&img2);
+		setMouseCallback("src", onMouse1, (void*)&img1);
+		setMouseCallback("dst", onMouse2, (void*)&img2);
+		if (img1_pnts.size() == 4 && img2_pnts.size() == 4)
+			isStartSet = 1;
 		waitKey(30);
 	}
-
-	//Mat H = getHomography(img1_pnts, img2_pnts);
-
-	//warp(src1, src2, H);
+	for (int i = 0;i < img1_pnts.size();i++) {
+		cout << "img1_pnts" << i << " : " << img1_pnts[i].x << ' ' << img1_pnts[i].y << endl;
+		cout << "img2_pnts" << i << " : " << img2_pnts[i].x << ' ' << img2_pnts[i].y << endl;
+	}
+	Mat H = getHomography(img1_pnts, img2_pnts);
+	
+	warp(src1, src2, H);
 
 	imshow("res", src2);
 	waitKey();
@@ -42,10 +49,17 @@ int main() {
 	return 0;
 }
 
-void onMouse(int event, int x, int y, int flags, void* param) {
+void onMouse1(int event, int x, int y, int flags, void* param) {
 	Mat* im = reinterpret_cast<Mat*>(param);
 	if (event == CV_EVENT_LBUTTONDOWN) {
-		cout << "(" << x << "," << y << "):" << static_cast<int>(im->at<uchar>(Point(x, y))) << endl;
+		img1_pnts.push_back(Point2f(x, y));
+	}
+}
+
+void onMouse2(int event, int x, int y, int flags, void* param) {
+	Mat* im = reinterpret_cast<Mat*>(param);
+	if (event == CV_EVENT_LBUTTONDOWN) {
+		img2_pnts.push_back(Point2f(x, y));
 	}
 }
 
