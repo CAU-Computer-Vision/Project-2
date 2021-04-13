@@ -1,0 +1,102 @@
+﻿  main.cpp
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(53,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(54,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(55,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(56,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(57,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(58,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(59,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(60,9): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(61,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(62,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(63,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(64,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(65,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(66,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(67,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(68,10): warning C4244: '초기화 중': 'const _Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(108,20): warning C4244: '인수': 'int'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(108,17): warning C4244: '인수': 'int'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(114,13): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(115,13): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(122,86): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(122,82): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(123,50): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(123,43): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(124,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(124,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(125,51): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\JEONG\source\repos\ComputerVision\ComputerVision\main.cpp(125,46): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ComputerVision.vcxproj -> C:\Users\JEONG\source\repos\ComputerVision\x64\Debug\ComputerVision.exe
